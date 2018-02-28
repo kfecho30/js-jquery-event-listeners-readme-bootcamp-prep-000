@@ -14,6 +14,11 @@ function submitIt(){
     alert('Your form is going to be submitted now.')
   })
 }
+function pressIt(){
+  $('#typing').on('keydown', function(key){
+    
+  })
+}
 $(document).ready(function(){
 
 // call functions here
